@@ -3,7 +3,7 @@ function Why() {
   return (
     <div className=" bg-gray-900 flex flex-col items-center text-center py-10 px-4 md:pt-16">
       <h1
-        className="text-xl font-black text-gray-300 mb-10 md:text-4xl md:mb-16 lg:text-5xl"
+        className="text-xl font-black text-gray-300 mb-10 md:text-4xl md:mb-16 lg:text-5xl leading-8"
         data-aos="zoom-in"
       >
         ඇයි{" "}
@@ -19,7 +19,7 @@ function Why() {
         data-aos="zoom-in"
       />
       <p
-        className="text-gray-300 md:text-xl lg:text-2xl lg:leading-10"
+        className="text-gray-300 md:text-xl lg:text-2xl lg:leading-10 leading-7"
         data-aos="zoom-in"
       >
         මුළු බයිබලයම ශුද්ධ ලියවිල්ලක් ලෙසින් හදුන්වන්නට හැකිවන්නේ එහි තිබෙන හැම

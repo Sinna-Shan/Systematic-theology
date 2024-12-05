@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <div className="min-h-screen bg-[url('./cover.webp')] bg-no-repeat bg-cover bg-center items-center flex flex-col justify-center p-4">
-      <div className=" bg-neutral-900 border border-neutral-700 backdrop-filter backdrop-blur-md px-8 bg-opacity-70 w-full h-full flex items-center flex-col justify-center p-3 rounded-md shadow-lg shadow-black/45">
+    <div className="min-h-screen bg-[url('/poetrybooks.jpg')] bg-no-repeat bg-cover bg-center items-center flex flex-col justify-center p-4">
+      <div className=" bg-neutral-900 border border-neutral-700 backdrop-filter backdrop-blur-md px-8 bg-opacity-50 w-full h-full flex items-center flex-col justify-center p-3 rounded-md shadow-lg shadow-black/45">
         <img
           src="./logo.png"
           alt="logo"
