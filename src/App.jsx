@@ -1,5 +1,6 @@
 import Facts from "./components/Facts";
 import Hero from "./components/Hero";
+import Structure from "./components/Structure";
 import Why from "./components/Why";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Hero />
       <Why />
       <Facts />
+      <Structure />
     </div>
   );
 }
