@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="min-h-screen bg-[url('./assets/imgs/cover.webp')] bg-no-repeat bg-cover bg-center items-center flex flex-col justify-center p-4">
+    <div className="min-h-screen bg-[url('./cover.webp')] bg-no-repeat bg-cover bg-center items-center flex flex-col justify-center p-4">
       <div className=" bg-neutral-900/70 border border-neutral-700 w-full h-full flex items-center flex-col justify-center p-3 rounded-md shadow-lg shadow-black/45">
         <h1 className="text-4xl font-bold text-center mb-6 text-orange-100 md:text-6xl md:mb-10 lg:mb-16 lg:text-7xl">
           ක්‍රමාණූකූල බයිබල් අධ්‍යාපනය.

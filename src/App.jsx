@@ -1,3 +1,4 @@
+import Facts from "./components/Facts";
 import Hero from "./components/Hero";
 import Why from "./components/Why";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Hero />
       <Why />
+      <Facts />
     </div>
   );
 }
