@@ -1,4 +1,5 @@
 import Facts from "./components/Facts";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Structure from "./components/Structure";
 import Why from "./components/Why";
@@ -10,6 +11,7 @@ function App() {
       <Why />
       <Facts />
       <Structure />
+      <Footer/>
     </div>
   );
 }

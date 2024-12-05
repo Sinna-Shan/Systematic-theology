@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Books from "./Books";
 
 const oldTestement = [
@@ -38,19 +37,34 @@ const newTestement = [
 ];
 function Structure() {
   return (
-    <div className="flex flex-col items-center min-h-screen w-full bg-gradient-to-t from-slate-800 to-slate-900 text-white px-3 text-center">
-      <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-7xl lg:my-10">
+    <div className="flex flex-col items-center min-h-screen w-full bg-gradient-to-t from-slate-800 to-slate-900 text-white px-3 text-center pb-10">
+      <h1
+        className="text-3xl sm:text-3xl md:text-5xl md:mb-6 lg:text-7xl lg:my-10"
+        data-aos="zoom-in"
+      >
         ශුද්ධ බයිබලයේ කොටස්
       </h1>
-      <h3 className="mt-6 text-xl">ශුද්ධ වූ බයිබලය ප්‍රධාන කොටස් දෙකකි.</h3>
-      <h4 className="mt-8 text-lg mb-6">
+      <h3
+        className="mt-6 text-xl text-amber-400 sm:text-2xl md:text-3xl lg:text-4xl"
+        data-aos="zoom-in"
+      >
+        ශුද්ධ වූ බයිබලය ප්‍රධාන කොටස් දෙකකි.
+      </h3>
+      <h4
+        className="mt-8 text-lg mb-6 sm:text-xl md:text-2xl lg:leading-relaxed lg:text-3xl"
+        data-aos="zoom-in"
+      >
         මුල් ගිවිසුම කොටස් පහකින් සමන්විතය
         <br />
         (පොත් 39)
       </h4>
       <Books values={oldTestement} />
-      <h4 className="mt-8 text-lg mb-6">
-        දෙවෙනි ගිවිසුම කොටස් පහකින් සමන්විතය. <br />(පොත් 27)
+      <h4
+        className="mt-8 text-lg my-8 sm:text-xl md:text-2xl lg:my-12 lg:leading-relaxed lg:text-3xl"
+        data-aos="zoom-in"
+      >
+        දෙවෙනි ගිවිසුම කොටස් පහකින් සමන්විතය. <br />
+        (පොත් 27)
       </h4>
       <Books values={newTestement} />
     </div>
