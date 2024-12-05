@@ -11,7 +11,7 @@ function Books({ values}) {
           return (
             <div
               key={i}
-              className="bg-cover bg-center rounded-md border border-black shadow-md md:hover:scale-105 ease-linear duration-200"
+              className="bg-cover bg-center rounded-md border border-black shadow-md lg:hover:scale-105 ease-linear duration-200"
               style={{ backgroundImage: `url('${el.img}')` }}
             >
               <div className="bg-clip-padding backdrop-filter backdrop-blur-sm px-8 bg-opacity-70 bg-slate-700 w-full rounded-md h-full flex items-center justify-end flex-col shadow-md border border-black">

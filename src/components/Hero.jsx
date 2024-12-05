@@ -9,7 +9,7 @@ function Hero() {
           data-aos="zoom-out-down"
         />
         <h1
-          className="text-4xl font-bold text-center mb-6 text-gray-100 md:text-6xl md:mb-10 lg:mb-16 lg:text-7xl"
+          className="text-4xl font-bold text-center mb-6 text-gray-100 md:text-6xl md:mb-10 lg:mb-16 lg:text-7xl leading-normal"
           data-aos="zoom-in-right"
         >
           ක්‍රමාණූකූල බයිබල් අධ්‍යාපනය.
