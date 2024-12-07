@@ -1,7 +1,10 @@
+import Container from "../../../components/Container";
+import Ul from "../../../components/Ul";
+
 function Leviticus() {
   return (
     <section className="p-2">
-      <div className="bg-gray-200 overflow-hidden mt-3 p-2 rounded-md">
+      <Container>
         <p>
           මිසරයෙන් පිටත් වූ සෙනඟ ගමන ආරම්භ කළ පසු ප්‍රථම වතාවට දෙවියන් වහන්සේ
           විසින් තමාගේ වැඩය කරන පිණිස පූජකවරුන් කණ්ඩායමක් තෝරා ගන්ට තීන්දු කරන
@@ -12,27 +15,25 @@ function Leviticus() {
           සඳහන් කර ඇත.
         </p>
 
-        <ul className="flex w-full flex-wrap mt-4 gap-2 text-sm">
-          <li className="bg-amber-400 p-2 rounded-md">දවන පූජාව</li>
-          <li className="bg-amber-400 p-2 rounded-md">පාප පූජාව</li>
-          <li className="bg-amber-400 p-2 rounded-md">අපරාධ පූජාව</li>
-          <li className="bg-amber-400 p-2 rounded-md">සමාදාන පූජාව</li>
-          <li className="bg-amber-400 p-2 rounded-md">ආහාර පූජාව</li>
-        </ul>
-      </div>
+        <Ul
+          values={[
+            "දවන පූජාව",
+            "පාප පූජාව",
+            "අපරාධ පූජාව",
+            "සමාදාන පූජාව",
+            "ආහාර පූජාව",
+          ]}
+        />
+      </Container>
 
-      <div className="bg-gray-200 overflow-hidden mt-3 p-2 rounded-md">
+      <Container>
         <p>
           තවද ලෙවිවරුන්ට ලියන ලද මෙම පොත තුල නීති මාලාවක්ද ඔවුන්ට හඳුන්වා දී ඇත
           ඒවා කොටස් කිහිපයකට වෙන්කර ගත හැකිය.
         </p>
 
-        <ul className="flex w-full flex-wrap mt-4 gap-2 text-sm">
-          <li className="bg-amber-400 p-2 rounded-md">සෞඛ්‍ය නීති</li>
-          <li className="bg-amber-400 p-2 rounded-md">ආහාර නීති</li>
-          <li className="bg-amber-400 p-2 rounded-md">සදාචාරාත්මක නීති</li>
-        </ul>
-      </div>
+        <Ul values={["සෞඛ්‍ය නීති", "ආහාර නීති", "සදාචාරාත්මක නීති"]} />
+      </Container>
     </section>
   );
 }

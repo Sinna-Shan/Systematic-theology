@@ -1,7 +1,10 @@
+import Container from "../../../components/Container";
+import Ul from "../../../components/Ul";
+
 function Deuteronomy() {
   return (
     <section className="p-2">
-      <div className="bg-gray-200 overflow-hidden mt-3 p-2 rounded-md">
+      <Container>
         <p>
           ද්විතීය කතාව වන විට වසර අවුරුදු 40ක් ගමන් කළා වූ කාන්තාර මාර්ගයේ
           ඊශ්‍රායල් වරුන්ට නායකත්වය දුන්නා වූ දෙවියන් වහන්සේ තෝරා ගත් මෝසෙස්
@@ -14,20 +17,16 @@ function Deuteronomy() {
           සෙනගට ප්‍රකාශ කළහ,
         </p>
 
-        <ul className="flex w-full flex-wrap mt-4 gap-2 text-sm">
-          <li className="bg-amber-400 p-2 rounded-md">
-            ස්වාමීන් වහන්සේගේ ව්‍යවස්ථාව - දස පණත - නීති රීති 613
-          </li>
-          <li className="bg-amber-400 p-2 rounded-md">
-            ස්වාමින්වහන්සේගේ ගිවිසුම - මෝසෙස්ගේ ගිවිසුම
-          </li>
-          <li className="bg-amber-400 p-2 rounded-md">
-            ස්වාමීන් වහන්සේගේ පොරොන්දුව - පොරොන්දු දේශය
-          </li>
-        </ul>
-      </div>
+        <Ul
+          values={[
+            "ස්වාමීන් වහන්සේගේ ව්‍යවස්ථාව - දස පණත - නීති රීති 613",
+            "ස්වාමින්වහන්සේගේ ගිවිසුම - මෝසෙස්ගේ ගිවිසුම",
+            "ස්වාමීන් වහන්සේගේ පොරොන්දුව - පොරොන්දු දේශය",
+          ]}
+        />
+      </Container>
 
-      <div className="bg-gray-700 overflow-hidden mt-3 p-2 rounded-md text-amber-100">
+      <div className="bg-gray-700 overflow-hidden mt-3 p-2 rounded-md text-amber-100 sm:text-lg sm:p-4 lg:text-xl">
         <p>
           ඉන්පසු නේබෝ කන්ද අසලදී මෝසෙස් මරණයට පත්විය. එවිට මෝසෙස්ගේ වයස අවුරුදු
           120 ය.

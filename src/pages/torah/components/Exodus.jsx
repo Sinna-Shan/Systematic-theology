@@ -1,7 +1,9 @@
+import Container from "../../../components/Container";
+
 function Exodus() {
   return (
     <section className="p-2">
-      <div className="bg-gray-200 overflow-hidden mt-3 p-2 rounded-md">
+      <Container>
         <p>
           යෝසෙප් මිසරයට පැමිණ එම දේශයේ අග්‍රාමාත්‍යවරයා ලෙස පත්විය.ඉන්පසු ලෝකය
           පුරා ඇති වූ සාගත තත්ත්වය නිසා යාකොබ් සහ ඔහුගේ දරු පරම්පරාවේ 70 දෙනෙක්
@@ -16,7 +18,7 @@ function Exodus() {
           අතර ඒ උදෙසා මෝසෙස්ව තෝරා ගෙන එතුමාගේ ආධිපත්‍යය බලය ලබා දෙමින් මිසරය
           තුළින් ඊශ්‍රායල් වරුන් පිටතට ගැනීම නික්මයාම නම් වේ.
         </p>
-      </div>
+      </Container>
     </section>
   );
 }
