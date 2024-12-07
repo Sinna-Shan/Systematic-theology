@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Torah from './pages/Torah.jsx'
+import Torah from './pages/torah/Torah.jsx'
 import Layout from './Layout.jsx'
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css"; 
+
 AOS.init({
   duration: 600,
   mirror: true
