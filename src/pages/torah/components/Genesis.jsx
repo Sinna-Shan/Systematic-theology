@@ -12,8 +12,8 @@ function Genesis() {
           වෙන් කර දක්වා ඇත.
         </p>
         <ol className="flex w-full mt-4 gap-2 text-sm">
-          <li className="bg-gray-300 p-2 rounded-md">නෝවාගේ ජලගැල්මට පෙර</li>
-          <li className="bg-gray-300 p-2 rounded-md">නෝවාගේ ජලගැල්මට පසු</li>
+          <li className="bg-amber-400 p-2 rounded-md">නෝවාගේ ජලගැල්මට පෙර</li>
+          <li className="bg-amber-400 p-2 rounded-md">නෝවාගේ ජලගැල්මට පසු</li>
         </ol>
       </div>
       <div className="bg-gray-200 overflow-hidden mt-3 p-2 rounded-md">
@@ -30,9 +30,9 @@ function Genesis() {
         </p>
 
         <ul className="flex w-full mt-4 gap-2 text-sm">
-          <li className="bg-gray-300 p-2 rounded-md">ආබ්‍රම්</li>
-          <li className="bg-gray-300 p-2 rounded-md">ඊසාක්</li>
-          <li className="bg-gray-300 p-2 rounded-md">යාකොබ්</li>
+          <li className="bg-amber-400 p-2 rounded-md">ආබ්‍රම්</li>
+          <li className="bg-amber-400 p-2 rounded-md">ඊසාක්</li>
+          <li className="bg-amber-400 p-2 rounded-md">යාකොබ්</li>
         </ul>
       </div>
     </section>

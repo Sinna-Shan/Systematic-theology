@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { FaBookJournalWhills } from "react-icons/fa6";
 import Genesis from "./components/Genesis";
+import Exodus from "./components/Exodus";
+import Leviticus from "./components/Leviticus";
+import Numbers from "./components/Numbers";
+import Deuteronomy from "./components/Deuteronomy";
 
 const books = [
   { book: "උප්පත්ති", chapters: 50, content: <Genesis /> },
-  { book: "නික්මයාම", chapters: 40 },
-  { book: "ලෙවී කතාව", chapters: 27 },
-  { book: "ගණන් කතාව", chapters: 36 },
-  { book: "ද්විතීය කතාව", chapters: 34 },
+  { book: "නික්මයාම", chapters: 40, content: <Exodus /> },
+  { book: "ලෙවී කතාව", chapters: 27, content: <Leviticus /> },
+  { book: "ගණන් කතාව", chapters: 36, content: <Numbers /> },
+  { book: "ද්විතීය කතාව", chapters: 34, content: <Deuteronomy /> },
 ];
 function Torah() {
   const [show, setShow] = useState(false);
@@ -25,10 +29,10 @@ function Torah() {
   return (
     <>
       <main
-        className="min-h-screen w-full bg-[url('/torah.jpg')] bg-cover
-         bg-center flex flex-col items-center p-3"
+        className="w-full bg-[url('/torah.jpg')] bg-cover
+         bg-center flex flex-col items-center justify-center p-3"
       >
-        <section className="w-full bg-neutral-900 backdrop-filter backdrop-blur-lg bg-opacity-90 p-3 rounded-md text-center text-white">
+        <section className="w-full bg-neutral-900 backdrop-filter backdrop-blur-lg bg-opacity-90 p-3 rounded-md text-center text-white my-6">
           <h1 className="text-xl">
             <span className="text-amber-200 text-4xl">ටෝරා</span> <br />
             (පංච පුස්තකය)
