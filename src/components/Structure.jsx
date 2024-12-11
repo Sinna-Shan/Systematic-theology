@@ -2,30 +2,30 @@ import Books from "./Books";
 
 const oldTestement = [
   { img: "./torah.jpg", link: "torah", title: "පංච පුස්තකය (5)" },
-  { img: "./history books.jpg", link: "history", title: "ඉතිහාස පොත් (12)" },
-  { img: "./Poetry.jpg", link: "poetry", title: "කවි පොත් (5)" },
+  { img: "./history_books.jpg", link: "history", title: "ඉතිහාස පොත් (12)" },
+  { img: "./poetry.jpg", link: "poetry", title: "කවි පොත් (5)" },
   {
     img: "./Prophet_0.jpg",
     link: "major_prophets",
     title: "මහා අනාගතවක්තෘ පොත් (5)",
   },
   {
-    img: "./minor prophets.webp",
+    img: "./minor_prophets.webp",
     link: "minor_prophets",
     title: "කුඩා අනාගතවක්තෘ පොත් (12)",
   },
 ];
 
 const newTestement = [
-  { img: "./gospal.jpg", link: "gospal", title: "සුභාරංචි පොත් (4)" },
+  { img: "./gospel.jpg", link: "gospel", title: "සුභාරංචි පොත් (4)" },
   { img: "./acts.jpg", link: "acts", title: "ඉතිහාස පොත් (1)" },
   {
-    img: "./Hebrews to Jude.jpg",
-    link: "leters_of_paul",
+    img: "./hebrews_to_jude.jpg",
+    link: "letters_of_paul",
     title: "පාවුලු තුමාගේ ලිපි (14)",
   },
   {
-    img: "./common letters.jpg",
+    img: "./common_letters.jpg",
     link: "common_letters",
     title: "පොදු ලිපි (7)",
   },
