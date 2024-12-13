@@ -7,7 +7,7 @@ function Header({ title, subTitle, values, content, extras }) {
     <>
       <section className="w-full bg-neutral-900 backdrop-filter backdrop-blur-lg bg-opacity-90 p-3 rounded-md text-center text-white my-6 border border-gray-700 shadow-md shadow-gray-900 md:px-4">
         <h1 className="text-xl sm:text-2xl lg:text-4xl lg:leading-relaxed">
-          <span className="text-amber-200 text-5xl lg:text-7xl">{title}</span>{" "}
+          <span className="text-amber-200 text-4xl lg:text-7xl">{title}</span>{" "}
           <br />
           {subTitle}
         </h1>
