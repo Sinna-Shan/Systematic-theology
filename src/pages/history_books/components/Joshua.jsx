@@ -23,7 +23,7 @@ function Joshua() {
           ]}
         />
 
-        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
+        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:pb-2 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
           1 පරිච්ඡේදයේ සිට 12 වැනි පරිච්ඡේදය දක්වා
         </h3>
         <p>
@@ -31,7 +31,7 @@ function Joshua() {
           ළඟා වීමයි.
         </p>
 
-        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
+        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:pb-2 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
           13 වැනි පරිච්ඡේදයේ සිට 24 වැනි පරිච්ඡේදය දක්වා
         </h3>
         <p>
