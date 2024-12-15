@@ -1,4 +1,5 @@
 import Container from "../../../components/Container";
+import Heading from "../../../components/Heading";
 import Ul from "../../../components/Ul";
 
 function Joshua() {
@@ -12,9 +13,9 @@ function Joshua() {
           නිවැරදිව සම්පූර්ණ කිරීමට යොෂුවාට හැකි විය.
         </p>
 
-        <h3 className="pt-2 font-bold text-gray-100 sm:pt-4 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
+        <Heading type="h3">
           ඒ අනුව යොෂුවා පොත කොටස් දෙකකට වෙන් කර ඇත.
-        </h3>
+        </Heading>
 
         <Ul
           values={[
@@ -23,17 +24,17 @@ function Joshua() {
           ]}
         />
 
-        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:pb-2 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
+        <Heading type="h3">
           1 පරිච්ඡේදයේ සිට 12 වැනි පරිච්ඡේදය දක්වා
-        </h3>
+        </Heading>
         <p>
           යෝර්දාන් ගඟ දෙබෑ කරමින් යෙරිකෝව ජයගෙන ක්‍රමක්‍රමයෙන් පොරොන්දු දේශය කරා
           ළඟා වීමයි.
         </p>
 
-        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:pb-2 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6 lg:pb-4">
+        <Heading type="h3">
           13 වැනි පරිච්ඡේදයේ සිට 24 වැනි පරිච්ඡේදය දක්වා
-        </h3>
+        </Heading>
         <p>
           අල්ලා ගත් දේශය ගෝත්‍ර දොළහකට හරියාකාරව බෙදා දක්වමින් ලෙවිවරුන්ටද ලෙවී
           නගර <span className="text-amber-400">48</span>ක් ලබා දෙමින් දේශය බෙදා
@@ -42,10 +43,7 @@ function Joshua() {
             (යොශුවාගේ ජීවිත කාලය අවුරුදු 110 ය)
           </span>
         </p>
-
-        <h3 className="pt-3 font-bold text-gray-100 sm:pt-4 sm:text-xl md:text-2xl lg:text-3xl lg:pt-6">
-          ගෝත්‍ර දොළහ
-        </h3>
+        <Heading type="h3">ගෝත්‍ර දොළහ</Heading>
         <Ul
           values={[
             "රූබෙන්",
