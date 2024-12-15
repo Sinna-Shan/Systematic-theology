@@ -1,12 +1,17 @@
 import BookRenderer from "../../components/BookRenderer";
 import Header from "../../components/Header";
+import Daniel from "./components/Daniel";
+import Ezekiel from "./components/Ezekiel";
+import Isaiah from "./components/Isaiah";
+import Jeremiah from "./components/Jeremiah";
+import Lamentations from "./components/Lamentations";
 
 const books = [
-  { book: "යෙසායා", chapters: 66, content: null },
-  { book: "ඉරමියා", chapters: 52, content: null },
-  { book: "විලාප ගී", chapters: 5, content: null },
-  { book: "එසකියල්", chapters: 48, content: null },
-  { book: "දානියෙල්", chapters: 12, content: null },
+  { book: "යෙසායා", chapters: 66, content: <Isaiah/> },
+  { book: "යෙරමියා", chapters: 52, content: <Jeremiah/> },
+  { book: "විලාප ගී", chapters: 5, content: <Lamentations/> },
+  { book: "එසකියල්", chapters: 48, content: <Ezekiel/> },
+  { book: "දානියෙල්", chapters: 12, content: <Daniel/> },
 ];
 function MajorProphets() {
   return (
