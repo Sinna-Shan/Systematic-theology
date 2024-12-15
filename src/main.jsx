@@ -16,6 +16,8 @@ import Gospel from './pages/gospel/Gospel.jsx'
 import LettersOfPaul from './pages/letters_of_paul/LettersOfPaul.jsx'
 import CommonLetters from './pages/common_letters/CommonLetters.jsx'
 import Revelation from './pages/revelation/Revelation.jsx'
+import SilentTime from './pages/silent_time/SilentTime.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 AOS.init({
   duration: 600,
@@ -26,6 +28,7 @@ AOS.init({
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />
@@ -34,6 +37,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="poetry" element={<PoeticBooks />} />
           <Route path="major_prophets" element={<MajorProphets />} />
           <Route path="minor_prophets" element={<MinorProphets />} />
+          <Route path="silent" element={<SilentTime />} />
           <Route path="gospel" element={<Gospel />} />
           <Route path="acts" element={<Acts />} />
           <Route path="letters_of_paul" element={<LettersOfPaul />} />

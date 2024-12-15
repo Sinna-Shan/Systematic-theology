@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Books from "./Books";
 
 const oldTestement = [
@@ -59,13 +60,33 @@ function Structure() {
         (පොත් 39)
       </h4>
       <Books values={oldTestement} />
+      <Link
+        to="silent"
+        className="my-8 border rounded-full px-3 py-1.5 text-center sm:my-10 sm:px-4 sm:py-2 sm:text-lg md:my-12 hover:border-amber-400 ease-linear duration-300 lg:text-3xl lg:my-16 lg:px-8 lg:py-4"
+      >
+        නිහඩ කාලය
+      </Link>
       <h4
-        className="mt-8 text-lg my-8 sm:text-xl md:text-2xl lg:my-12 lg:leading-relaxed lg:text-3xl"
+        className="mt-8 text-lg my-8 sm:text-xl md:text-2xl lg:my-6 lg:leading-relaxed lg:text-3xl"
         data-aos="zoom-in"
       >
         දෙවෙනි ගිවිසුම කොටස් පහකින් සමන්විතය. <br />
         (පොත් 27)
       </h4>
+      <p
+        className="my-6 leading-7 text-base sm:text-lg sm:leading-8 md:text-xl md:leading-10 lg:text-2xl lg:leading-relaxed lg:my-10"
+        data-aos="zoom-in"
+      >
+        පොත් තිස් නමය පුරාවට තෝරා ගත් වංශයක් සමඟ හැසිරෙමින් ආ සර්ව බලධාරී
+        දෙවියන් වහන්සේ තමාට කීකරු සෙනඟක් නිර්මාණය කර ගැනීමට අනපනත් නීති රීති
+        දමමින් උත්සාහ කළ ද එම උත්සාහය ව්‍යාර්ථ විය. ඉන්පසුව කීකරු සෙනඟක් සාදා
+        ගැනීමට නම් මනුෂ්‍යයා තුළ සාතන්ට තිබෙන අයිතිය ඉවත් විය යුතු බව එතුමා
+        විසින් ස්ථිර කරන ලද්දේය. ඒ වෙනුවෙන් තමාම දේවත්වය අතහැර මනුකයක් දරාගෙන
+        පොළොවට පැමිණීමට අවශ්‍ය බව තීන්දු කළේය. එම තීන්දුවේ ප්‍රකාරය අනුව දේවත්වය
+        අත හරින කල යේසුස් නම් ලත් මනුෂ්‍ය රූපයකට එතුමා ඇතුළු විය. මෙහිදී පියාණන්
+        වහන්සේට ඉතා කීකරුව තමාගේ ජීවිතය කුරුසියේදී පූජා කරමින් සකල ජාතීන් සමඟ
+        ලෙයින් ඇති කරගත් ගිවිසුම නව ගිවිසුම නම් වේ.
+      </p>
       <Books values={newTestement} />
     </div>
   );
