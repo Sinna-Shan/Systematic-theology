@@ -1,12 +1,18 @@
 import BookRenderer from "../../components/BookRenderer";
 import Header from "../../components/Header";
 import Ul from "../../components/Ul";
+import Ecclesiastes from "./components/Ecclesiastes";
+import Job from "./components/Job";
+import Proverbs from "./components/Proverbs";
+import Psalms from "./components/Psalms";
+import SongOfSolomon from "./components/SongOfSolomon";
+
 const books = [
-  { book: "යෝබ්", chapters: 42, content: null },
-  { book: "ගීතාවලිය", chapters: 150, content: null },
-  { book: "හිතෝපදේශ", chapters: 31, content: null },
-  { book: "දේශනාකාරයා", chapters: 12, content: null },
-  { book: "සාලමොන්ගේ ගීතිකාව", chapters: 8, content: null },
+  { book: "යෝබ්", chapters: 42, content: <Job /> },
+  { book: "ගීතාවලිය", chapters: 150, content: <Psalms /> },
+  { book: "හිතෝපදේශ", chapters: 31, content: <Proverbs/> },
+  { book: "දේශනාකාරයා", chapters: 12, content: <Ecclesiastes/> },
+  { book: "සාලමොන්ගේ ගීතිකාව", chapters: 8, content: <SongOfSolomon/> },
 ];
 function PoeticBooks() {
   return (
