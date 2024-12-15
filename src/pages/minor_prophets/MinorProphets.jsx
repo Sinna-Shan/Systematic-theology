@@ -1,5 +1,12 @@
 import BookRenderer from "../../components/BookRenderer";
 import Header from "../../components/Header";
+import Amos from "./components/Amos";
+import Hosea from "./components/Hosea";
+import HSM from "./components/HSM";
+import JMHH from "./components/JMHH";
+import Malachi from "./components/Malachi";
+import Obediah from "./components/Obediah";
+import YN from "./components/YN";
 const books = [
   { book: "හොෂෙයා ", chapters: 14, content: null },
   { book: "යෝවෙල්", chapters: 3, content: null },
@@ -16,13 +23,17 @@ const books = [
 ];
 
 const category = [
-  { book: "හොෂෙයා", content: null },
-  { book: "යෝවෙල්, මීකා, හබක්කුක්, ශෙපනියා", content: null },
-  { book: "ආමෝස්", content: null },
-  { book: "ඔබදියා", content: null },
-  { book: "යෝනා, නාහුම්", content: null },
-  { book: "හග්ගයි, සෙකරියා, මලාකි", content: null },
-  { book: "මලාකි", content: null },
+  { book: "හොෂෙයා", chapters: 14, content: <Hosea /> },
+  {
+    book: "යෝවෙල්, මීකා, හබක්කුක්, ශෙපනියා",
+    chapters: "3 / 7 / 3 / 3",
+    content: <JMHH/>,
+  },
+  { book: "ආමෝස්", chapters: 9, content: <Amos/> },
+  { book: "ඔබදියා",chapters: 1, content: <Obediah/> },
+  { book: "යෝනා, නාහුම්", chapters: "4/3", content: <YN/> },
+  { book: "හග්ගයි, සෙකරියා, මලාකි", chapters: "2/14/4", content: <HSM/> },
+  { book: "මලාකි", chapters: "4", content: <Malachi/> },
 ];
 function MinorProphets() {
     return (
