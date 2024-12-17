@@ -18,7 +18,7 @@ function PoeticBooks() {
   return (
     <>
       <main
-        className="w-full bg-[url('./poetry.webp')] bg-cover
+        className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
          bg-center flex flex-col items-center justify-center p-3"
       >
         <Header

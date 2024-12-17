@@ -28,7 +28,7 @@ function LettersOfPaul() {
     return (
       <>
         <main
-          className="w-full bg-[url('./hebrews_to_jude.jpg')] bg-cover
+          className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
          bg-center flex flex-col items-center justify-center p-3"
         >
           <Header
@@ -49,12 +49,14 @@ function LettersOfPaul() {
                   භාෂාව, අරාමීය භාෂාව, ග්‍රීක් භාෂාව, අකාඩියෙන් භාෂාව, මුල් හීබෘ
                   භාෂාව යන භාෂාවලින් ලිවීමට කතා කිරීමට මනා හැකියාවක් තිබූ අයෙකි.
                 </p>
-                <p className="mt-6 text-amber-400">පාවුලු තුමා ගම් හතකට ලිපි නමයක් ලියා ඇත.</p>
+                <p className="mt-6 text-amber-400">
+                  පාවුලු තුමා ගම් හතකට ලිපි නමයක් ලියා ඇත.
+                </p>
               </div>
             }
           />
-            </main>
-            <BookRenderer values={books}/>
+        </main>
+        <BookRenderer values={books} />
       </>
     );
 }

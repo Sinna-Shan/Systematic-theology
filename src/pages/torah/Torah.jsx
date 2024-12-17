@@ -17,7 +17,7 @@ function Torah() {
   return (
     <>
       <main
-        className="w-full bg-[url('torah.jpg')] bg-cover
+        className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
          bg-center flex flex-col items-center justify-center p-3"
       >
         <Header

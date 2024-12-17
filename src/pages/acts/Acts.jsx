@@ -2,12 +2,12 @@ import Header from "../../components/Header";
 function Acts() {
   return (
     <main
-      className="w-full min-h-screen bg-[url('./acts.jpg')] bg-cover
+      className="w-full min-h-screen bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
          bg-center flex flex-col items-center justify-center p-3"
     >
       <Header
         title="ක්‍රියා පොත."
-        values={[{book:"ක්‍රියා"}]}
+        values={[{ book: "ක්‍රියා" }]}
         content={
           <>
             <p className="sm:leading-9 md:leading-10 lg:leading-relaxed">
