@@ -6,13 +6,14 @@ import Job from "./components/Job";
 import Proverbs from "./components/Proverbs";
 import Psalms from "./components/Psalms";
 import SongOfSolomon from "./components/SongOfSolomon";
+import Footer from "../../components/Footer";
 
 const books = [
   { book: "යෝබ්", chapters: 42, content: <Job /> },
   { book: "ගීතාවලිය", chapters: 150, content: <Psalms /> },
-  { book: "හිතෝපදේශ", chapters: 31, content: <Proverbs/> },
-  { book: "දේශනාකාරයා", chapters: 12, content: <Ecclesiastes/> },
-  { book: "සාලමොන්ගේ ගීතිකාව", chapters: 8, content: <SongOfSolomon/> },
+  { book: "හිතෝපදේශ", chapters: 31, content: <Proverbs /> },
+  { book: "දේශනාකාරයා", chapters: 12, content: <Ecclesiastes /> },
+  { book: "සාලමොන්ගේ ගීතිකාව", chapters: 8, content: <SongOfSolomon /> },
 ];
 function PoeticBooks() {
   return (
@@ -46,7 +47,7 @@ function PoeticBooks() {
           }
         />
       </main>
-      <BookRenderer values={books} />
+      <BookRenderer values={books} /> <Footer /> 
     </>
   );
 }

@@ -10,7 +10,7 @@ import Phillippians from "./components/Phillippians";
 import Romans from "./components/Romans";
 import Thessalonians from "./components/Thessalonians";
 import Timothy from "./components/Timothy";
-import Titus from "./components/Titus";
+import Titus from "./components/Titus";import Footer from "../../components/Footer";
 const books = [
   { book: "රෝම", chapters: 16, content: <Romans /> },
   { book: "1 & 2 කොරින්ති", chapters: "16 & 13", content: <Corinthians /> },
@@ -56,7 +56,7 @@ function LettersOfPaul() {
             }
           />
         </main>
-        <BookRenderer values={books} />
+        <BookRenderer values={books} />      <Footer />
       </>
     );
 }

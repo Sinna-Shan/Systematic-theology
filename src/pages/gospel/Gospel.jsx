@@ -4,7 +4,7 @@ import Ul from "../../components/Ul";
 import John from "./components/John";
 import Luke from "./components/Luke";
 import Mark from "./components/Mark";
-import Matthew from "./components/Matthew";
+import Matthew from "./components/Matthew";import Footer from "../../components/Footer";
 
 const books = [
   { book: "මතෙව්", chapters: 28, content: <Matthew /> },
@@ -106,7 +106,7 @@ function Gospel() {
           }
         />
       </main>
-      <BookRenderer values={books} />
+      <BookRenderer values={books} />      <Footer />
     </>
   );
 }

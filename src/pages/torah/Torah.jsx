@@ -5,6 +5,7 @@ import Numbers from "./components/Numbers";
 import Deuteronomy from "./components/Deuteronomy";
 import Header from "../../components/Header";
 import BookRenderer from "../../components/BookRenderer";
+import Footer from "../../components/Footer";
 
 const books = [
   { book: "උප්පත්ති", chapters: 50, content: <Genesis /> },
@@ -51,6 +52,7 @@ function Torah() {
       </main>
 
       <BookRenderer values={books} />
+      <Footer />
     </>
   );
 }

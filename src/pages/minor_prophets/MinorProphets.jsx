@@ -7,6 +7,7 @@ import JMHH from "./components/JMHH";
 import Malachi from "./components/Malachi";
 import Obediah from "./components/Obediah";
 import YN from "./components/YN";
+import Footer from "../../components/Footer";
 const books = [
   { book: "හොෂෙයා ", chapters: 14, content: null },
   { book: "යෝවෙල්", chapters: 3, content: null },
@@ -27,31 +28,30 @@ const category = [
   {
     book: "යෝවෙල්, මීකා, හබක්කුක්, ශෙපනියා",
     chapters: "3 / 7 / 3 / 3",
-    content: <JMHH/>,
+    content: <JMHH />,
   },
-  { book: "ආමෝස්", chapters: 9, content: <Amos/> },
-  { book: "ඔබදියා",chapters: 1, content: <Obediah/> },
-  { book: "යෝනා, නාහුම්", chapters: "4/3", content: <YN/> },
-  { book: "හග්ගයි, සෙකරියා, මලාකි", chapters: "2/14/4", content: <HSM/> },
-  { book: "මලාකි", chapters: "4", content: <Malachi/> },
+  { book: "ආමෝස්", chapters: 9, content: <Amos /> },
+  { book: "ඔබදියා", chapters: 1, content: <Obediah /> },
+  { book: "යෝනා, නාහුම්", chapters: "4/3", content: <YN /> },
+  { book: "හග්ගයි, සෙකරියා, මලාකි", chapters: "2/14/4", content: <HSM /> },
+  { book: "මලාකි", chapters: "4", content: <Malachi /> },
 ];
 function MinorProphets() {
-    return (
-      <>
-        <main
-          className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
+  return (
+    <>
+      <main
+        className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 bg-cover
          bg-center flex flex-col items-center justify-center p-3"
-        >
-          <Header
-            title="කුඩා අනාගතවක්තෘ පොත්"
-            values={books}
-            content="කුඩා අනාගතවක්තෘන් ලෙස හඳුන්වනු ලබන්නේ ඒ අයගේ ආත්මික ස්වභාවය මත නොව එම පොත් වල ඇති තොරතුරු මතය. ඒ අනුව හොෂෙයා සිට මළාකි දක්වා ඇති අවසන් පොත් දොළහ මේ නමින් හඳුන්වයි."
-          />
-        </main>
-
-        <BookRenderer values={category} />
-      </>
-    );
+      >
+        <Header
+          title="කුඩා අනාගතවක්තෘ පොත්"
+          values={books}
+          content="කුඩා අනාගතවක්තෘන් ලෙස හඳුන්වනු ලබන්නේ ඒ අයගේ ආත්මික ස්වභාවය මත නොව එම පොත් වල ඇති තොරතුරු මතය. ඒ අනුව හොෂෙයා සිට මළාකි දක්වා ඇති අවසන් පොත් දොළහ මේ නමින් හඳුන්වයි."
+        />
+      </main>
+      <BookRenderer values={category} /> <Footer />
+    </>
+  );
 }
 
-export default MinorProphets
+export default MinorProphets;

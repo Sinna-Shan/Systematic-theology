@@ -8,7 +8,7 @@ import Judges from "./components/Judges";
 import Kings from "./components/Kings";
 import Ruth from "./components/Ruth";
 import Samuel from "./components/Samuel";
-import Nehemiah from "./components/Nehemiah";
+import Nehemiah from "./components/Nehemiah";import Footer from "../../components/Footer";
 const books = [
   { book: "යෝෂුවා" },
   { book: "විනිශ්චකාරයන්ගේ පොත" },
@@ -45,7 +45,7 @@ function HistoryBooks() {
       >
         <Header title="ඉතිහාස පොත්" values={books} />
       </main>
-      <BookRenderer values={summary} />
+      <BookRenderer values={summary} />      <Footer />
     </>
   );
 }
