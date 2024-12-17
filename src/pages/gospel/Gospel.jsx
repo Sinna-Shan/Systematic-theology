@@ -1,12 +1,16 @@
 import BookRenderer from "../../components/BookRenderer";
 import Header from "../../components/Header";
 import Ul from "../../components/Ul";
+import John from "./components/John";
+import Luke from "./components/Luke";
+import Mark from "./components/Mark";
+import Matthew from "./components/Matthew";
 
 const books = [
-  { book: "මතෙව්", chapters: 28, content: null },
-  { book: "මාක්", chapters: 16, content: null },
-  { book: "ලූක්", chapters: 24, content: null },
-  { book: "‍යොහාන්", chapters: 21, content: null },
+  { book: "මතෙව්", chapters: 28, content: <Matthew /> },
+  { book: "මාක්", chapters: 16, content: <Mark /> },
+  { book: "ලූක්", chapters: 24, content: <Luke /> },
+  { book: "‍යොහාන්", chapters: 21, content: <John /> },
 ];
 function Gospel() {
   return (
@@ -101,8 +105,8 @@ function Gospel() {
             </div>
           }
         />
-        <BookRenderer values={books} />
       </main>
+        <BookRenderer values={books} />
     </>
   );
 }
